@@ -3,9 +3,8 @@ This project is an AI-powered web application that processes audio recordings of
 
 The application is built using a "chain-of-thought" process involving multiple AI models: one for speech-to-text, a second for terminology correction, and a third for summarization and task extraction.
 
-Application Screenshot
-(Note: You will need to upload your image to your GitHub repository and name it demo_screenshot.png, or update the path in the Markdown above to match your image's file name and location.)
-
+# Application Screenshot
+![AI Meeting Assistant Demo](https://raw.githubusercontent.com/Shiv1799/AI-Meeting-Assistant/main/AI%20meeting%20assitant.png)
 # Key Features
 Simple Web Interface: Easily upload an audio file directly from your browser using a Gradio interface.
 
@@ -15,7 +14,7 @@ Intelligent Terminology Correction: A specialized prompt and LLM (Llama 3.2) are
 
 Meeting Minutes & Task Generation: A second LLM (IBM Granite) processes the corrected transcript to generate structured meeting minutes and a clear, actionable task list.
 
-# Downloadable Output: Provides the generated minutes and tasks as a .txt file for easy download and sharing.
+Downloadable Output: Provides the generated minutes and tasks as a .txt file for easy download and sharing.
 
 # How it Works: The AI Pipeline
 The application processes the user's audio file in a multi-step pipeline:
